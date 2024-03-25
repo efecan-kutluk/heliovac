@@ -1,0 +1,25 @@
+{
+  "name": "1nj3kt0r",
+  "version": "1.0.0",
+  "description": "A frontend app to test sealevel attack on solana",
+  "main": "app.ts",
+  "author": "efecan-kutluk",
+  "license": "MIT",
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint"
+  },
+  "devDependencies": {
+    "@types/react": "18.2.70",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.4.3"
+  },
+  "dependencies": {
+    "@solana/web3.js": "^1.91.1",
+    "next": "^14.1.4",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0"
+  }
+}
