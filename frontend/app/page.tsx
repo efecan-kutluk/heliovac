@@ -1,3 +1,8 @@
+import Navbar from "./ui/navbar/navbar"
 export default function Page() {
-    return <h1>Homepage header</h1>
-  }
+  return (
+    <>
+      <Navbar />
+    </>
+  )
+}

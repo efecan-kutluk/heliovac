@@ -1,7 +1,7 @@
 {
   "name": "1nj3kt0r",
   "version": "1.0.0",
-  "description": "A frontend app to test sealevel attack on solana",
+  "description": "A frontend app to simulate wallet hacks on solana",
   "main": "app.ts",
   "author": "efecan-kutluk",
   "license": "MIT",
@@ -12,15 +12,19 @@
     "lint": "next lint"
   },
   "devDependencies": {
+    "@types/eslint": "^8",
     "@types/node": "^20.11.30",
     "@types/react": "18.2.70",
-    "eslint": "^8.57.0",
-    "eslint-config-next": "^14.1.4",
     "ts-node": "^10.9.2",
     "typescript": "^5.4.3"
   },
   "dependencies": {
-    "@solana/web3.js": "^1.91.1",
+    "@solana/wallet-adapter-base": "^0.9.23",
+    "@solana/wallet-adapter-react": "^0.15.35",
+    "@solana/wallet-adapter-react-ui": "^0.9.35",
+    "@solana/wallet-adapter-wallets": "^0.19.32",
+    "@solana/web3.js": "^1.91.2",
+    "eslint": "^8.57.0",
     "next": "^14.1.4",
     "react": "^18.2.0",
     "react-dom": "^18.2.0"

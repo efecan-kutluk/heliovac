@@ -1,0 +1,33 @@
+.container {
+  padding: 20px;
+  background-color: var(--bgSoft);
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.brand {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+
+.brandImage {
+  border-radius: 50%;
+  object-fit: cover;
+}
+
+.title {
+  font-weight: 500;
+}
+
+.config {
+  display: flex;
+  align-items: center;
+  justify-content: end;
+  gap: 20px;
+
+  .wallet-adapter-button-trigger {
+    background-color: var(--bgSofter);
+  }
+}
